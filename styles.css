@@ -46,6 +46,7 @@ html {
   color: var(--text-white);
   scrollbar-width: thin;
   scrollbar-color: var(--glass-border) var(--bg-dark);
+  overflow-x: hidden;
 }
 
 body {
@@ -475,6 +476,7 @@ section {
   align-items: center;
   position: relative;
   z-index: auto;
+  overflow: hidden;
 }
 
 /* Radial glow behind the portrait */
@@ -1978,6 +1980,10 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
+  }
+  .hero-image-right::before {
+    display: none;
   }
   .hero-stats-row { 
     order: 4; 
