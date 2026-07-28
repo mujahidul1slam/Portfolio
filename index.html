@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mujahidul Islam — Video Editor Portfolio</title>
+  <meta name="description" content="Portfolio of Mujahidul Islam, an editorial video editor & colorist specializing in cinematic visions, high-speed rhythmic cuts, music videos, and commercial post-production.">
+  
+  <!-- Google Fonts: Syne (Massive Heavy Headings) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Syne:wght@700;800&family=Reenie+Beanie&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Glow Orbs for Spatial Depth / Parallax -->
+  <div class="bg-glow-container">
+    <div class="bg-glow-orb orb-1"></div>
+    <div class="bg-glow-orb orb-2"></div>
+    <div class="bg-glow-orb orb-3"></div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="customCursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Top Navigation Header (Translucent Glassmorphic) -->
+  <header class="top-nav" id="topNav">
+    <div class="nav-brand">
+      <a href="#hero" class="brand-logo">
+        <span class="brand-text">Mujahidul Islam</span>
+      </a>
+    </div>
+
+    <nav class="nav-menu">
+      <a href="#hero" class="nav-link active">Home</a>
+      <a href="#clients" class="nav-link">Clients</a>
+      <a href="#highlighted-work" class="nav-link">Exhibitions</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-status">
+      <span class="status-dot"></span>
+      <span class="status-text">AVAILABLE FOR WORK</span>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main>
+
+    <!-- SECTION 1: HERO SECTION -->
+    <section class="hero-section" id="hero">
+
+      <!-- Background Typography removed as per request -->
+
+      <!-- Main Hero Layout: Text Left | Image Right -->
+      <div class="hero-container-two-col">
+
+        <!-- Left Side: Text Content -->
+        <div class="hero-text-content">
+          <div class="hero-heading-group">
+            <span class="greeting-script">Hi, I'm</span>
+            <h1 class="hero-name">MUJAHID</h1>
+            <span class="role-desc">I'm a</span>
+            <h2 class="hero-role">VIDEO EDITOR</h2>
+          </div>
+          
+          <p class="hero-tagline">Turning raw footage into powerful visual stories that captivate audiences.</p>
+          
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years<br>Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">40+</span>
+              <span class="stat-label">Projects<br>Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Happy<br>Clients</span>
+            </div>
+          </div>
+          
+          <!-- Softwares I Use label + logos -->
+          <div class="hero-software-section">
+            <span class="software-label">Softwares I Use</span>
+            <div class="hero-software-logos">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" aria-label="Premiere Pro"><title>Adobe Premiere Pro</title><path d="M10.15 8.42a2.93 2.93 0 00-1.18-.2 13.9 13.9 0 00-1.09.02v3.36l.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03a1.45 1.45 0 00-.93-1.46zM19.75.3H4.25A4.25 4.25 0 000 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.09 11.65c-.4.56-.96.98-1.61 1.22-.68.25-1.43.34-2.25.34l-.5-.01-.43-.01v3.21a.12.12 0 01-.11.14H5.82c-.08 0-.12-.04-.12-.13V6.42c0-.07.03-.11.1-.11l.56-.01.76-.02.87-.02.91-.01c.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.15.42.23.85.23 1.3 0 .86-.2 1.57-.6 2.13zm6.82-3.15v1.95c0 .08-.05.11-.16.11a4.35 4.35 0 00-1.92.37c-.19.09-.37.21-.51.37v5.1c0 .1-.04.14-.13.14h-1.97a.14.14 0 01-.16-.12v-5.58l-.01-.75-.02-.78c0-.23-.02-.45-.04-.68a.1.1 0 01.07-.11h1.78c.1 0 .18.07.2.16a3.03 3.03 0 01.13.92c.3-.35.67-.64 1.08-.86a3.1 3.1 0 011.52-.39c.07-.01.13.04.14.11v.04z"/></svg>
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" aria-label="After Effects"><title>Adobe After Effects</title><path d="M8.54 10.73c-.1-.31-.19-.61-.29-.92s-.19-.6-.27-.89c-.08-.28-.15-.54-.22-.78h-.02c-.09.43-.2.86-.34 1.29-.15.48-.3.98-.46 1.48-.13.51-.29.98-.44 1.4h2.54c-.06-.21-.14-.46-.23-.72-.09-.27-.18-.56-.27-.86zm8.58-.29c-.55-.03-1.07.26-1.33.76-.12.23-.19.47-.22.72h2.109c.26 0 .45 0 .57-.01.08-.01.16-.03.23-.08v-.1c0-.13-.021-.25-.061-.37-.178-.56-.708-.94-1.298-.92zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.04 16.511h-2.09c-.07.01-.14-.041-.16-.11l-.82-2.4H5.92l-.76 2.36c-.02.09-.1.15-.19.14H3.09c-.11 0-.14-.06-.11-.18L6.2 7.39c.03-.1.06-.19.1-.31.04-.21.06-.43.06-.65-.01-.05.03-.1.08-.11h2.59c.07 0 .12.03.13.08l3.65 10.25c.03.11.001.161-.1.161zm7.851-3.991c-.021.189-.031.33-.041.42-.01.07-.069.13-.14.13-.06 0-.17.01-.33.021-.159.02-.35.029-.579.029-.23 0-.471-.04-.73-.04h-3.17c.039.31.14.62.31.89.181.271.431.48.729.601.4.17.841.26 1.281.25.35-.011.699-.04 1.039-.11.311-.039.61-.119.891-.23.05-.039.08-.02.08.08v1.531c0 .039-.01.08-.021.119-.021.03-.04.051-.069.07-.32.14-.65.24-1 .3-.471.09-.94.13-1.42.12-.761 0-1.4-.12-1.92-.35-.49-.211-.921-.541-1.261-.95-.319-.39-.55-.83-.69-1.31-.14-.471-.209-.961-.209-1.461 0-.539.08-1.07.25-1.59.16-.5.41-.96.75-1.37.33-.4.739-.72 1.209-.95.471-.23 1.03-.31 1.67-.31.531-.01 1.06.09 1.55.31.41.18.77.45 1.05.8.26.34.47.72.601 1.14.129.4.189.81.189 1.22 0 .24-.01.45-.019.64z"/></svg>
+              <img src="https://cdn.simpleicons.org/davinciresolve/white" alt="DaVinci Resolve">
+              <!-- CapCut logo -->
+              <img src="assets/capcut_logo.png" alt="CapCut">
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta-row">
+            <a href="#highlighted-work" class="hero-cta-btn hero-cta-primary" id="heroSeeWorkBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              See My Work
+            </a>
+            <a href="#contact" class="hero-cta-btn hero-cta-secondary" id="heroContactBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Image -->
+        <div class="hero-image-right">
+          <img src="assets/mujahid_hero_transparent.png?v=3" alt="Mujahid — Video Editor" class="mujahid-image" id="heroPortrait">
+        </div>
+
+      </div>
+
+      <!-- Availability Banner Removed -->
+
+    </section>
+
+    <!-- SECTION 2: CLIENTS GRID -->
+    <section class="clients-section" id="clients">
+      
+      <!-- Marquee 2: Clients Banner -->
+      <div class="marquee-wrapper dark-marquee">
+        <div class="marquee-track">
+          <span>CLIENTS . CLIENTS . CLIENTS . CLIENTS . CLIENTS . CLIENTS . CLIENTS . CLIENTS . </span>
+          <span>CLIENTS . CLIENTS . CLIENTS . CLIENTS . CLIENTS . CLIENTS . CLIENTS . CLIENTS . </span>
+        </div>
+      </div>
+
+      <!-- Overlapping Portfolio & Clients Grid -->
+      <div class="portfolio-grid-container">
+        
+        <!-- Overlaid Giant Headline -->
+        <h2 class="giant-overlay-title">clients</h2>
+
+        <!-- Cards Grid Layout (3D Glass Tiles) -->
+        <!-- Massive Logo Wall (15 Client Brand Logos) -->
+        <div class="massive-logo-wall">
+          <div class="logo-wall-item logo-item-first"><img src="Logos/roar_logo_white.png" alt="ROAR"></div>
+          <div class="logo-wall-item"><img src="Logos/CrodaON%20logo.png" alt="CrodaON"></div>
+          <div class="logo-wall-item"><img src="Logos/Logo-FashionHQ.webp" alt="FashionHQ"></div>
+          <div class="logo-wall-item"><img src="Logos/SAFA.jpg" alt="SAFA"></div>
+          <div class="logo-wall-item"><img src="Logos/Social_sharing_image_preview.webp" alt="Client Logo 5"></div>
+          <div class="logo-wall-item"><img src="Logos/arabika-8be672d3.png" alt="Arabika"></div>
+          <div class="logo-wall-item"><img src="Logos/arfin.png" alt="Arfin"></div>
+          <div class="logo-wall-item"><img src="Logos/ce2hc-logo.jpg" alt="CE2HC"></div>
+          <div class="logo-wall-item"><img src="Logos/ceilo.jpg" alt="Ceilo"></div>
+          <div class="logo-wall-item"><img src="Logos/courtyaard%20bazar.png" alt="Courtyaard Bazar"></div>
+          <div class="logo-wall-item"><img src="Logos/favicon-khanas.png" alt="Khanas"></div>
+          <div class="logo-wall-item"><img src="Logos/images.jpg" alt="Client Logo 12"></div>
+          <div class="logo-wall-item"><img src="Logos/images.png" alt="Client Logo 13"></div>
+          <div class="logo-wall-item"><img src="Logos/tabaq.jpg" alt="Tabaq"></div>
+          <div class="logo-wall-item"><img src="Logos/yoyosologo-white.png" alt="Yoyoso"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SECTION 4: HIGHLIGHTED WORK (EXHIBITIONS) -->
+    <section class="work-section" id="highlighted-work">
+      
+      <!-- Marquee 3: Exhibitions Banner -->
+      <div class="marquee-wrapper">
+        <div class="marquee-track">
+          <span>exhibitions . exhibitions . exhibitions . exhibitions . exhibitions . exhibitions . </span>
+          <span>exhibitions . exhibitions . exhibitions . exhibitions . exhibitions . exhibitions . </span>
+        </div>
+      </div>
+
+      <!-- Custom Brand Showcase Container -->
+      <div class="exhibitions-showcase-container">
+        
+        <!-- CARD 1: CRODA (1 Big Featured Video) -->
+        <div class="exhibition-brand-card">
+          <div class="exhibition-card-header">
+            <div class="exhibition-brand-left">
+              <img src="Logos/Croda.png" alt="Croda Logo" class="exhibition-brand-logo">
+            </div>
+            <span class="exhibition-category-pill">Commercial Brand Film</span>
+          </div>
+          <p class="exhibition-client-brief">
+            <strong>Client Brief:</strong> Croda International — Dynamic brand commercial highlighting sustainable innovation, high-end visual storytelling, and cinematic color grading.
+          </p>
+          <div class="exhibition-media-grid exhibition-grid-single">
+            <div class="exhibition-preview-item preview-landscape" data-video="videos/Croda.mp4" data-title="Croda — Brand Film 1">
+              <video class="exhibition-preview-video" src="Gifs/Croda.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: O2 (4 Vertical Videos in One Single Line) -->
+        <div class="exhibition-brand-card">
+          <div class="exhibition-card-header">
+            <div class="exhibition-brand-left">
+              <img src="Logos/o2.webp" alt="O2 Logo" class="exhibition-brand-logo logo-o2">
+            </div>
+            <span class="exhibition-category-pill">Vertical Social Campaign</span>
+          </div>
+          <p class="exhibition-client-brief">
+            <strong>Client Brief:</strong> O2 Telecommunications — Fast-paced, high-retention vertical short-form campaign designed for TikTok and Instagram Reels with dynamic typography and beat-synced cuts.
+          </p>
+          <div class="exhibition-media-grid exhibition-grid-four-vertical">
+            <div class="exhibition-preview-item preview-portrait" data-video="videos/o2 1.mp4" data-title="O2 — Campaign Video 1">
+              <video class="exhibition-preview-video" src="Gifs/o2 1.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+            <div class="exhibition-preview-item preview-portrait" data-video="videos/o2 2.mp4" data-title="O2 — Campaign Video 2">
+              <video class="exhibition-preview-video" src="Gifs/o2 2.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+            <div class="exhibition-preview-item preview-portrait" data-video="videos/o2 3.mp4" data-title="O2 — Campaign Video 3">
+              <video class="exhibition-preview-video" src="Gifs/o2 3.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+            <div class="exhibition-preview-item preview-portrait" data-video="videos/o2 4.mp4" data-title="O2 — Campaign Video 4">
+              <video class="exhibition-preview-video" src="Gifs/o2 4.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: FABRILIFE (3 Vertical Videos) -->
+        <div class="exhibition-brand-card">
+          <div class="exhibition-card-header">
+            <div class="exhibition-brand-left">
+              <img src="Logos/Fabrilife.png" alt="Fabrilife Logo" class="exhibition-brand-logo">
+            </div>
+            <span class="exhibition-category-pill">Apparel & E-Commerce Reels</span>
+          </div>
+          <p class="exhibition-client-brief">
+            <strong>Client Brief:</strong> Fabrilife — Stylish lifestyle and streetwear fashion commercials crafted for social media conversions, featuring rhythmic transitions and vibrant color treatment.
+          </p>
+          <div class="exhibition-media-grid exhibition-grid-three-vertical">
+            <div class="exhibition-preview-item preview-portrait" data-video="videos/Fabrilife 1.mov" data-title="Fabrilife — Reel 1">
+              <video class="exhibition-preview-video" src="Gifs/Fabrilife 1.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+            <div class="exhibition-preview-item preview-portrait" data-video="videos/Fabrilife 2.mp4" data-title="Fabrilife — Reel 2">
+              <video class="exhibition-preview-video" src="Gifs/Fabrilife 2.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+            <div class="exhibition-preview-item preview-portrait" data-video="videos/Fabrilife 3.mp4" data-title="Fabrilife — Reel 3">
+              <video class="exhibition-preview-video" src="Gifs/Fabrilife 3.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4: YOYOSO (1 Horizontal + 1 Vertical Video) -->
+        <div class="exhibition-brand-card">
+          <div class="exhibition-card-header">
+            <div class="exhibition-brand-left">
+              <img src="Logos/yoyoso.png" alt="Yoyoso Logo" class="exhibition-brand-logo">
+            </div>
+            <span class="exhibition-category-pill">Hybrid Brand Experience</span>
+          </div>
+          <p class="exhibition-client-brief">
+            <strong>Client Brief:</strong> Yoyoso Bangladesh — Comprehensive lifestyle and retail promotion combining widescreen cinematic storytelling with high-energy vertical social clips.
+          </p>
+          <div class="exhibition-media-grid exhibition-grid-hybrid">
+            <div class="exhibition-preview-item preview-landscape" data-video="videos/yoyoso 1.mp4" data-title="Yoyoso — Cinematic Widescreen Edit 1">
+              <video class="exhibition-preview-video" src="Gifs/yoyoso 1.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+            <div class="exhibition-preview-item preview-portrait" data-video="videos/yoyoso 2.mp4" data-title="Yoyoso — Vertical Social Reel 2">
+              <video class="exhibition-preview-video" src="Gifs/yoyoso 2.mp4" autoplay loop muted playsinline preload="metadata"></video>
+              <div class="exhibition-play-overlay">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SECTION 5: CONTACT & MASSIVE TYPOGRAPHY FOOTER -->
+    <footer class="footer-contact-section" id="contact">
+      
+      <div class="contact-container">
+        
+        <div class="contact-two-col-layout">
+          <!-- Left Column: Text -->
+          <div class="contact-left-col">
+            <h2 class="contact-title">Let's craft something <span class="highlight-yellow">extraordinary</span> together.</h2>
+          </div>
+
+          <!-- Right Column: Email Box & Social Media Icons Grid -->
+          <div class="contact-right-col">
+            <!-- Big Email Inquiry Card (Clickable to Mailto / Gmail) -->
+            <a href="mailto:mujahidulislam.gg@gmail.com" class="contact-email-card" id="contactCard3D" title="Click to send email via Gmail / Mail Client">
+              <span class="contact-email-label">Direct Inquiry • Click to send email</span>
+              <div class="big-email-btn">
+                <span id="emailAddressText">mujahidulislam.gg@gmail.com</span>
+                <span class="copy-email-badge">Send Email</span>
+              </div>
+            </a>
+
+            <!-- Social Media Icons Grid -->
+            <div class="social-icons-grid">
+              <a href="https://ig.me/m/mujaguza" target="_blank" rel="noopener" class="social-icon-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <span>Instagram</span>
+              </a>
+
+              <a href="https://m.me/mujaguza" target="_blank" rel="noopener" class="social-icon-card">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.13 2 11.23C2 14.15 3.52 16.74 5.86 18.39V22L9.36 20.1C10.2 20.35 11.08 20.47 12 20.47C17.52 20.47 22 16.34 22 11.23C22 6.13 17.52 2 12 2ZM13.06 14.77L10.51 12.06L5.56 14.77L10.94 9.06L13.51 11.77L18.44 9.06L13.06 14.77Z"></path>
+                </svg>
+                <span>Facebook</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/mujahidul1slam" target="_blank" rel="noopener" class="social-icon-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom Navigation & Copyright -->
+        <div class="footer-nav-row">
+          <div class="footer-brand">
+            <span>Mujahidul Islam</span>
+          </div>
+
+          <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#clients">Clients</a>
+            <a href="#highlighted-work">Exhibitions</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="copyright-text">
+            © 2026 MUJAHIDUL ISLAM. ALL RIGHTS RESERVED.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ABSOLUTELY MASSIVE CROPPED TYPOGRAPHY FOOTER BACKGROUND -->
+      <div class="massive-cropped-typography">
+        <span>mujahidul islam</span>
+      </div>
+
+    </footer>
+
+  </main>
+
+  <!-- VIDEO PLAYER LIGHTBOX MODAL -->
+  <div class="video-modal-backdrop" id="videoModal">
+    <div class="video-modal-container">
+      <button class="close-modal-btn" id="closeModalBtn" aria-label="Close Video Player">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-video-wrapper">
+        <video id="modalVideoPlayer" controls autoplay playsinline>
+          <source id="modalVideoSource" src="" type="video/mp4">
+          Your browser does not support HTML5 video playback.
+        </video>
+      </div>
+
+      <div class="modal-info-panel">
+        <h2 id="modalVideoTitle" class="modal-project-title">Project Title</h2>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toast">
+    <span id="toastMessage">Email copied to clipboard!</span>
+  </div>
+
+  <!-- GSAP Core and ScrollTrigger CDNs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- JavaScript Logic -->
+  <script src="main.js"></script>
+</body>
+</html>
