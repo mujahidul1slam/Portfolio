@@ -1362,10 +1362,11 @@ section {
 }
 
 .contact-title {
-  font-size: clamp(2.2rem, 3.5vw, 3.5rem);
+  font-size: clamp(1.8rem, 6vw, 3.5rem);
   line-height: 1.6;
   color: var(--text-white);
   margin-bottom: 1.5rem;
+  word-break: break-word;
 }
 
 .highlight-yellow {
@@ -2071,4 +2072,9 @@ section {
   }
 }
 
-
+@media (max-width: 900px) {
+  .custom-cursor,
+  .cursor-follower {
+    display: none !important;
+  }
+}
