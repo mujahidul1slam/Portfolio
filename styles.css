@@ -1881,13 +1881,42 @@ section {
     padding: 5rem 1.5rem;
   }
   .top-nav, .top-nav.scrolled {
-    padding: 0.8rem 1.5rem;
+    padding: 0.6rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+    align-items: center;
   }
-  .nav-menu {
-    display: none; /* Mobile menu hidden for simplicity, or could build a burger, but keeping structure */
+  .nav-brand {
+    grid-column: 1;
+    grid-row: 1;
+    overflow: hidden;
+  }
+  .brand-logo {
+    font-size: 1.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .nav-status {
-    padding: 0.3rem 0.8rem;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 0.25rem 0.5rem;
+  }
+  .status-text {
+    font-size: 0.55rem;
+  }
+  .nav-menu {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    padding-top: 0.25rem;
+  }
+  .nav-link {
+    font-size: 0.8rem;
   }
   .hero-name, .hero-role {
     font-size: 2rem;
@@ -1898,32 +1927,83 @@ section {
   .hero-stats-right {
     gap: 1rem;
   }
+  .hero-cta-row {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+  .hero-cta-btn {
+    width: 100%;
+    justify-content: center;
+  }
   .stat-number {
     font-size: 1.8rem;
   }
+  .hero-section {
+    min-height: auto;
+    height: auto;
+  }
   .hero-container-two-col {
+    display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    justify-content: flex-start;
+    min-height: 0;
+    height: auto;
+    gap: 1.25rem;
     padding: 0 1.5rem;
-    padding-top: 60px;
+    padding-top: 125px;
+    padding-bottom: 2.5rem;
     align-items: center;
   }
-  .hero-text-content,
+  .hero-text-content {
+    display: contents; /* Break out children for reordering */
+  }
+  .hero-heading-group { 
+    order: 1; 
+    text-align: center;
+    width: 100%;
+  }
+  .hero-tagline { 
+    order: 2; 
+    text-align: center;
+    width: 100%;
+  }
   .hero-image-right {
+    order: 3;
     width: 100%;
     max-width: 100%;
+    height: auto !important;
+    min-height: 0 !important;
     flex: none;
     align-items: center;
+    justify-content: center;
     text-align: center;
   }
-  .hero-image-right {
-    height: auto;
+  .hero-stats-row { 
+    order: 4; 
+    width: 100%;
     justify-content: center;
   }
+  .hero-software-section { 
+    order: 5; 
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-software-logos {
+    justify-content: center;
+  }
+  .hero-cta-row { 
+    order: 6; 
+  }
   .mujahid-image {
-    max-height: 45vh;
-    width: 280px;
-    transform: scale(1.1);
+    height: 280px;
+    max-height: 280px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
   }
   .portfolio-cards-grid {
     grid-template-columns: 1fr;
@@ -1953,7 +2033,7 @@ section {
   }
   .massive-logo-wall {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 0.75rem;
     padding: 2rem 1rem;
   }
   .exhibitions-showcase-container {
@@ -1970,12 +2050,18 @@ section {
     gap: 0.75rem;
   }
   .exhibition-grid-four-vertical {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.8rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
   .exhibition-grid-three-vertical {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  .contact-grid {
+    gap: 2.5rem;
+  }
+  .social-icons-grid {
+    gap: 1.25rem;
   }
 }
 
