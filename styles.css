@@ -1091,6 +1091,15 @@ section {
   transform: scale(1.15) !important;
 }
 
+/* Fabrilife logo: invert colors to avoid blending with dark bg and make bigger */
+.fabrilife-logo {
+  filter: invert(1) brightness(2);
+  transform: scale(1.4);
+}
+.logo-wall-item:hover .fabrilife-logo {
+  transform: scale(1.5);
+}
+
 .logo-item-first:hover img {
   transform: scale(1.25) !important;
 }
@@ -1164,7 +1173,17 @@ section {
 
 .exhibition-brand-left {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.exhibition-logo-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-white);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .exhibition-brand-logo {
